@@ -40,17 +40,17 @@ body{
 }
 
 .teclas button{
-    width: 68px;
+    width: 100px;
     height: 68px;
     margin: 20px;
     margin-bottom: 5px;
     cursor: pointer;
     box-shadow: 0px 2px 8px dimgray;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 1px solid dimgray;
     color: #8b008b;
     font-weight: 750;
-    font-size: 2em;
+    font-size: 1em;
 
 
 }

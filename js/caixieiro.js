@@ -74,51 +74,22 @@ function carregarImagemGrafo(letra) {
 }
 
 function verificaAresta(letra, noAtual) {
-    aresta = []
-    if (noAtual == "A") aresta = arestaA
-    if (noAtual == "B") aresta = arestaB
-    if (noAtual == "C") aresta = arestaC
-    if (noAtual == "D") aresta = arestaD
-    if (noAtual == "E") aresta = arestaE
-    if (noAtual == "F") aresta = arestaF
-    if (noAtual == "G") aresta = arestaG
-    if (noAtual == "H") aresta = arestaH
 
-    const no = aresta.indexOf(letra)
-    if (no < 0) {
-        console.log("vixe")
-    }
-    else {
-        listaDeVisitados[contadorLetras] = letra;
-        contadorLetras++;
-        mestrosAndados += 500
-        contagemDeMetros()
-        noAtual = letra
-
-    }
-    atualizarNo(letra);
-    let vitoria = true;
-    if (contadorLetras < 7) vitoria = false
-    if (vitoria == true) {
-        // meengem 
-        contadorLetras = 0;
-    }
 }
 
 
 function verificaLetraEscolhida(letra) {
+    document.getElementById("tecla-" + letra).setAttribute("disabled", "disabled");
     mudarStyleLetra("tecla-" + letra);
     verificaAresta(letra, noAtual);
 
 }
 function mudarStyleLetra(tecla) {
+
     document.getElementById(tecla).style.background = "#C71585";
     document.getElementById(tecla).style.color = "#ffffff";
 }
 
-function carregarImagemGrafo(letra) {
-    // carregar as imagens do grafo
-}
 
 window.onload = function () {
     var cenario = document.getElementById('cenario');
@@ -163,7 +134,7 @@ window.onload = function () {
     v7.vizinhos(v10, random());
 
     v9.vizinhos(v10, random());
-
+    v9.vizinhos(v1, random());
 }
 
 function random() {
