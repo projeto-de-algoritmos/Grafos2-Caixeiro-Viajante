@@ -60,7 +60,8 @@ body{
 
 }
 .teclas button:disabled{
-    cursor: not-allowed;
+    color: #a11f1f;
+   cursor: not-allowed;
 }
 
 .textoMetros{
@@ -68,8 +69,9 @@ body{
     height: 68px;
     margin: 20px;
     color: #dfdbdf;
-    font-weight: 750;
+    font-weight: 900;
     font-size: 1,5em;
     position: center;
     text-align: center;
 }
+
