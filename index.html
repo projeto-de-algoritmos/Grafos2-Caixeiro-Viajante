@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <style>
         body {
             text-align: center;
@@ -17,14 +16,18 @@
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            flex-direction: column;
+            margin-top: 0px;
         }
-
+        .navbar{
+            margin-bottom: 0px;
+        }
+        .title-logo {
+            width: 280px;
+            height: 120px;
+            display: flex;
+            margin: auto;
+            margin-bottom: 35px;
+        }
         @keyframes gradient {
             0% {
                 background-position: 0% 50%;
@@ -38,17 +41,12 @@
                 background-position: 0% 50%;
             }
         }
-
-
-
-
         .cores {
             padding: 0;
             margin: 0;
             margin-top: 50px;
 
         }
-
         .cores li {
             width: 40px;
             height: 40px;
@@ -58,21 +56,19 @@
             list-style: none;
             display: inline-block;
         }
-
         cores li:disabled {
             color: #a11f1f;
             cursor: not-allowed;
         }
-
-
-
         svg {
             width: 1100px;
             height: 1100px;
-
+            margin-top: 0px;
         }
     </style>
-    <h1>Caixeiro Viajante</h1>
+    <div class="navbar">
+        <img class="title-logo" src="./img/logo_caixeiro.png">
+    </div>
     <div id="container">
         <div id="text">
             <h1 id="distanciaPercorrida"></h1>
@@ -1357,9 +1353,6 @@
         </svg>
     </div>
 
-
-
-
     <script>
         metrosAndados = 0;
         function selecionaAresta(numero) {
@@ -1371,8 +1364,6 @@
             metrosAndados = metrosAndados + metro
             const name = document.getElementById("text");
             name.innerText = "Voce andou " + metrosAndados + " kilometros";
-
-
         }
     </script>
 </body>
