@@ -43,7 +43,7 @@ Na figura 3, ao clicar em jogar, aparecerá o menor valor para visitar os pontos
 
 ## Uso
 ### Experiência Manual
-O usuário deve utilizar os botões coloridos. Cada botão tem sua aresta de mesma cor. Ao clicar no botão, a aresta correspondente ficará vermelha e o total de km percorridos aparecerá.
+O usuário deve utilizar os botões coloridos. Cada botão tem sua aresta de mesma cor. Ao clicar no botão, a aresta correspondente ficará vermelha e o total de km percorridos aparecerá. O jogo reinicia quando o jogador alcançar 76 km que é o tamanho menor entre os pontos turísticos, se ele ultrapassar a mensagem que o jogador perdeu aparecerá.
 
 ### Experiência Automática
 
