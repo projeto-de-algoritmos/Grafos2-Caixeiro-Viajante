@@ -30,11 +30,14 @@ Figura 2: Tela do jogo quando o usuário apertar algum botão.<br>
 
 Na figura 2, a aresta referente a cor do botão que o usuário apertou ficará vermelha e aparecerá quantos Km ele percorreu.
 
+![image](https://user-images.githubusercontent.com/52638444/155010646-9cf9b879-4689-4746-a03a-e6f910f26489.png)
+figura 3: Disposição dos botões que gera a vitória.
+
 ### Experiência Automática
 ![image](https://user-images.githubusercontent.com/52542729/154973454-1409e85d-6a45-4a02-9f22-55d3ecf43af7.png)
-Figura 3: Tela do jogo. <br>
+Figura 4: Tela do jogo. <br>
 
-Na figura 3, ao clicar em jogar, aparecerá o menor valor para visitar os pontos turísticos.
+Na figura 4, ao clicar em jogar, aparecerá o menor valor para visitar os pontos turísticos.
 
 ## Instalação 
 **Linguagem Experiência Manual**: HTML e JavaScript. <br>
