@@ -30,7 +30,7 @@ Figura 2: Tela do jogo quando o usuário apertar algum botão.<br>
 
 Na figura 2, a aresta referente a cor do botão que o usuário apertou ficará vermelha e aparecerá quantos Km ele percorreu.
 
-!![image](https://user-images.githubusercontent.com/52638444/155010899-df580a91-01ee-4e19-a80c-3934cf900a11.png)
+![image](https://user-images.githubusercontent.com/52542729/155012899-32482c26-1bad-490a-a3a7-66205d9f84d1.png)
 figura 3: Disposição dos botões que gera a vitória.
 
 ### Experiência Automática
