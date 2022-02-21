@@ -30,11 +30,14 @@ Figura 2: Tela do jogo quando o usuário apertar algum botão.<br>
 
 Na figura 2, a aresta referente a cor do botão que o usuário apertou ficará vermelha e aparecerá quantos Km ele percorreu.
 
+!![image](https://user-images.githubusercontent.com/52638444/155010899-df580a91-01ee-4e19-a80c-3934cf900a11.png)
+figura 3: Disposição dos botões que gera a vitória.
+
 ### Experiência Automática
 ![image](https://user-images.githubusercontent.com/52542729/154973454-1409e85d-6a45-4a02-9f22-55d3ecf43af7.png)
-Figura 3: Tela do jogo. <br>
+Figura 4: Tela do jogo. <br>
 
-Na figura 3, ao clicar em jogar, aparecerá o menor valor para visitar os pontos turísticos.
+Na figura 4, ao clicar em jogar, aparecerá o menor valor para visitar os pontos turísticos.
 
 ## Instalação 
 **Linguagem Experiência Manual**: HTML e JavaScript. <br>
@@ -43,7 +46,7 @@ Na figura 3, ao clicar em jogar, aparecerá o menor valor para visitar os pontos
 
 ## Uso
 ### Experiência Manual
-O usuário deve utilizar os botões coloridos. Cada botão tem sua aresta de mesma cor. Ao clicar no botão, a aresta correspondente ficará vermelha e o total de km percorridos aparecerá.
+O usuário deve utilizar os botões coloridos. Cada botão tem sua aresta de mesma cor. Ao clicar no botão, a aresta correspondente ficará vermelha e o total de km percorridos aparecerá. O jogo reinicia quando o jogador alcançar 76 km que é o tamanho menor entre os pontos turísticos, se ele ultrapassar, a mensagem que o jogador perdeu aparecerá.
 
 ### Experiência Automática
 
