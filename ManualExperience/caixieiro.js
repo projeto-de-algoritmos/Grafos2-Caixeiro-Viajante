@@ -10,7 +10,12 @@ function selecionaAresta(numero) {
     metrosAndados = metrosAndados + metro
     const name = document.getElementById("text");
     name.innerText = "Você andou " + metrosAndados + " kilometros";
-
+    if (metrosAndados > 76) {
+        alert('Você perdeu! A resposta é 76 km') ? "" : location.reload();
+    }
+    if (metrosAndados == 76) {
+        alert('Você ganhou! Menor caminho entre os pontos é 76 km') ? "" : location.reload();
+    }
 
 };
 
