@@ -9,7 +9,7 @@ function selecionaAresta(numero) {
     const metro = parseFloat(aresta.getAttribute('code'))
     metrosAndados = metrosAndados + metro
     const name = document.getElementById("text");
-    name.innerText = "Voce andou " + metrosAndados + " kilometros";
+    name.innerText = "Você andou " + metrosAndados + " kilometros";
 
 
 };
