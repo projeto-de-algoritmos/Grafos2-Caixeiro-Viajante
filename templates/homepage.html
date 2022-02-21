@@ -6,33 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caixeiro Viajante Carioca</title>
+    <link rel="stylesheet" href="./static/css/style.css">
 </head>
 
 <body>
-    <img src="../static/img/mapa.svg">
-    <h1>{{aresta1}}</h1>
-    <h1>{{aresta2}}</h1>
-    <h1>{{aresta3}}</h1>
-    <h1>{{aresta4}}</h1>
-    <h1>{{aresta5}}</h1>
-    <h1>{{aresta6}}</h1>
-    <h1>{{aresta7}}</h1>
-    <h1>{{aresta8}}</h1>
-    <h1>{{aresta9}}</h1>
-    <h1>{{aresta10}}</h1>
-    <h1>{{aresta11}}</h1>
-    <h1>{{aresta12}}</h1>
-    <h1>{{aresta13}}</h1>
-    <h1>{{aresta14}}</h1>
-    <h1>{{aresta15}}</h1>
-    <h1>{{aresta16}}</h1>
-    <h1>{{aresta17}}</h1>
-    <h1>{{aresta18}}</h1>
-    <h1>{{aresta19}}</h1>
-    <h1>{{resultado}}</h1>
-    <input type="button" value="Refresh Page" onClick="window.location.reload()">
+    <div class="navbar">
+        <img class="title-logo" src="./static/img/logo_caixeiro.png">
+    </div>
+    
+    <h1 class="impact-text"><b>VOCÊ ESTÁ NO RIO DE JANEIRO E QUER VISITAR OS PONTOS TURÍSTICOS!</b></h1>
+    <p class="text">O jogo consiste em conseguir visitar todos os pontos turísticos do Rio de Janeiro gastando o menor valor!<br>
+        Ao clicar em jogar, a resposta com o menor valor para visitar os pontos aparecerá!</p>
 
-
+    <img class="img" src="./static/img/grafo_fixo.png">
+    <div class="group">
+        <h1 class="aresta1">* Praia Leblon - Rocinha: R$ {{aresta1}},00</h1>
+        <h1 class="aresta2">* Praia Leblon - Lagoa: R$ {{aresta2}},00</h1>
+        <h1 class="aresta3">* Praia Leblon - Praia Copacabana: R$ {{aresta3}},00</h1>
+        <h1 class="aresta4">* Lagoa - Rocinha: R$ {{aresta4}},00</h1>
+        <h1 class="aresta5">* Jardim Botânico - Rocinha: R$ {{aresta5}},00</h1>
+        <h1 class="aresta6">* Jardim Botânico - Lagoa: R$ {{aresta6}},00</h1>
+        <h1 class="aresta7">* Cristo Redentor - Jardim Botânico: R$ {{aresta7}},00</h1>
+        <h1 class="aresta8">* Sambódramo - Jardim Botânico: R$ {{aresta8}},00</h1>
+        <h1 class="aresta9">* Sambódromo - Cristo: R$ {{aresta9}},00</h1>
+        <h1 class="aresta10">* Aeroporto - Cristo Redentor: R$ {{aresta10}},00</h1>
+        <h1 class="aresta11">* Aeroporto - Sambódromo: R$ {{aresta11}},00</h1>
+        <h1 class="aresta12">* Praia de Copacabana - Cristo Redentor: R$ {{aresta12}},00</h1>
+        <h1 class="aresta13">* Pão de Açúcar - Cristo Redentor: R$ {{aresta13}},00</h1>
+        <h1 class="aresta14">* Praia de Copacabana - Lagoa: R$ {{aresta14}},00</h1>
+        <h1 class="aresta15">* Aeroporto - Praia de Copacabana: R${{aresta15}},00</h1>
+        <h1 class="aresta16">* Aeroporto - Pão de Açúcar: R$ {{aresta16}},00</h1>
+        <h1 class="aresta17">* Pão de Açúcar - Praia de Copacabana: R$ {{aresta17}},00</h1>
+        <h1 class="aresta18">* Pão de Açúcar - Baia de Guanabara: R$ {{aresta18}},00</h1>
+        <h1 class="aresta19">* Lagoa - Cristo Redentor: R$ {{aresta19}},00</h1>
+    </div>
+        <p class="impact-text">RESULTADO</p>
+        <h1 class="resultado">{{resultado}}</h1>
+        <br>
+        <p class="impact-text">TOTAL</p>
+        <input class="button" type="button" value="JOGAR" onClick="window.location.reload()">
+        
 </body>
-
 </html>

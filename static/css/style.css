@@ -1,0 +1,158 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 0px;
+    float: left;
+}
+.group{
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+.title-logo {
+    width: 370px;
+    height: 220px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 35px;
+}
+body { 
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.impact-text {
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    z-index: 2;
+    position: relative;
+}
+.text {
+    margin: 0px 100px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    position: relative;
+}
+.aresta1{
+    color:#660066
+}
+.aresta2{
+    color:yellow;
+}
+.aresta3{
+    color:#9E5320
+}
+.aresta4{
+    color:#9DA2EB
+}
+.aresta5{
+    color:#0066FF
+}
+.aresta6{
+    color:#80E884
+}
+.aresta7{
+    color:#F04946
+}
+.aresta8{
+    color:#E85D97
+}
+.aresta9{
+    color:#669900
+}
+.aresta10{
+    color:#ED2468
+}
+.aresta11{
+    color:#E88351
+}
+.aresta12{
+    color:#9E966F
+}
+.aresta13{
+    color:#85CBF8
+}
+.aresta14{
+    color:#EBA708
+}
+.aresta15{
+    color:#24ED65
+}
+.aresta16{
+    color:#51E8DD
+}
+.aresta17{
+    color:#4F9E95
+}
+.aresta18{
+    color:#9933FF
+}
+.aresta19{
+    color:white
+}
+.resultado{
+    display: block;
+    font-size: 20px;
+    align-items: center;
+}
+.button {
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 20px;
+    font-weight: bold;
+    color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	background: rgb(129, 2, 2);
+	border-radius: 15px;
+}
+.button:after {
+	content: '';
+	position: absolute;
+	transform: translateX(-55px) translateY(-40px);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: 0px 0px 50px transparent;
+	transition: 500ms;
+}
+.button:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
